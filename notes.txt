@@ -1,1 +1,40 @@
-Notes.txt
+Git commands:
+
+Set the path to the directory in CMD. 
+
+cd c:\src\git-commands
+
+Git init
+it will initialize the git with .git file will be created. 
+
+Add new file notes.txt and add the commands
+
+ git add . 
+ 
+ git commit -m added notes for git commands.
+ 
+ to set the remote git repository
+ git remote add origin https://github.com/jagadir/git-commands.git
+ 
+ to push changes
+ git push
+ 
+ To create new branch1
+ 
+ git branch branch1
+ 
+ To switch to branch1
+ git switch branch
+ 
+ To switch to master branch
+ git switch to master 
+ 
+ To merge data from branch1 to master
+	1. checkout the master branch - git checkout master
+	2. execute merge command - git merge branch1
+	
+to delete a branch1	
+git branch -d branch1
+
+
+ 
