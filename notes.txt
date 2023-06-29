@@ -36,5 +36,10 @@ Add new file notes.txt and add the commands
 to delete a branch1	
 git branch -d branch1
 
+To push to master branch:
+
+git push --set-upstream origin master
+
+
 
  
